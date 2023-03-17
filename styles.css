@@ -1,0 +1,92 @@
+@font-face {
+    font-family: FreeSans-Regular;
+    src: url(./fonts/FreeSans.ttf);
+}
+
+@font-face {
+    font-family: FreeSans-Bold;
+    src: url(./fonts/FreeSansBold.ttf);
+}
+
+.padding-15 {
+    padding: 15px;
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+.highlight {
+    font-size: 20pt;
+    font-family: "FreeSans-Regular";
+}
+
+.text-body {
+    font-size: 13pt;
+    font-family: "FreeSans-Regular";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li a {
+    padding: 2vh;   /*padding between header options*/
+    text-decoration: none; 
+    color: #000000;
+    text-align: center;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+}
+
+.navigation-container{ 
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    background-color: #495B73;
+}
+
+.logo img {
+    width: 100%;
+    max-width: 50px;
+    height: auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: 55px;
+    height: 55px;
+    padding: 2px;
+}
+
+.navigations {
+    display: flex;
+    align-items: center;
+}
+
+.navigations a {
+    text-decoration: none;
+    color: #eeeeee;
+}
+
+.searchbar {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.searchbar i {
+    color: #eeeeee;
+}
+
+
+
+
