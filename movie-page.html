@@ -6,43 +6,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css"/> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>BOXD</title>
+    <title>COZY</title>
 </head>
 <body>
     <div class="page-container">
-        <div class="navigation-container">
+        <div class="header-container">
             <div class="logo">
-                <a href="index.html"><img src="./images/logo-white.svg" alt=""></a>
+                <a href="index.html"><img src="./images/cozygc green.svg" alt=""></a>
             </div>
 
-            <div class="navigations gap-10 text-body">
-                <a href="">Films</a>
-                <a href="">Watchlist</a>
-                <a href="">Recommendations</a>
+            <div class="navigations-container gap-20">
+                <div class="navigations gap-25 highlight">
+                    <a href="">Films</a>
+                    <a href="">Favorites</a>
+                    <a href="">Watchlist</a>
+                </div>
+
+                <div class="searchbar gap-10">
+                    <i class="fa fa-search"></i>
+                    <input type="text" placeholder="Search.." class="mini-searchbar">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="movie-container gap-20">
+            <div class="poster-buttons-container">
+                <div class="poster-container">
+                    <img src="./posters/aftersun (2022)/1O3MXdQZ0XvtvG3emWCvmE1Zzxe.jpg" alt="">
+                </div>
+                <button type="button">Trailer</button>
+                <button type="button">Add to Watchlist</button>
             </div>
 
-            <div class="searchbar gap-10">
-                <i class="fa fa-search"></i>
-                <input type="text" placeholder="Search..">
-                
+            <div class="description-container">
+                <div class="title-container gap-5">
+                    <h1 class="title">Title</h1>
+                    <h2 class="highlight">(2022)</h2>
+                </div>
+                <h3 class="highlight">Directed by IE</h3>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <div class="movie-description-container">
+                    <p class="text-body">Sophie reflects on the shared joy and private melancholy of a holiday she took with her father twenty years earlier. Memories real and imagined fill the gaps between miniDV footage as she tries to reconcile the father she knew with the man she didn't.</p>
+                </div>
+
             </div>
 
         </div>
 
-        <div class="movie-container" id="movie-container">
-            <div class="poster"></div>
-            <div class="title"></div>
-            <div class="description"></div>
 
+        <div class="footer">
+            <div class="footer-logo">
+                <img src="./images/cozygc gray.svg" alt="">
+            </div>
+            <h1 class="highlight">COZYgc by ISBERGSSALLAD</h1>
         </div>
-    
-
-
-
-
-
 
 
     </div>
+
 </body>
 </html>

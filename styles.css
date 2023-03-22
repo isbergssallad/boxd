@@ -79,7 +79,7 @@
 }
 
 .text-body {
-    font-size: 13pt;
+    font-size: 11pt;
     font-family: "FreeSans-Regular";
     font-weight: 500;
 }
@@ -133,6 +133,7 @@ ul li a {
 .logo {
     display: flex;
     align-items: center;
+    padding-right: 20px;
 }
 
 .navigations {
@@ -243,4 +244,46 @@ input[type=text]:focus {outline:none;}
 
 input {
     font-size: 13pt;
+}
+
+
+
+.movie-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 700px;
+}
+
+.description-container {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    width: auto;
+    height: auto;
+    gap: 5px;
+}
+
+.poster-container img{
+    width: 250px;
+    height: auto;
+}
+
+.poster-buttons-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.title-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.movie-description-container {
+    max-width: 400px;
+    height: auto;
 }

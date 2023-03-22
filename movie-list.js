@@ -52,6 +52,16 @@ window.movies = [
         trailer: "https://youtu.be/In8fuzj3gck",
         rated: "5",
         description: "Residents in a lonely gulch of inland California bear witness to an uncanny, chilling discovery.",
+    },
+    {
+        id: "house-of-hummingbird",
+        name: "House of Hummingbird",
+        year: "2019",
+        director: "Kim Bora",
+        trailer: "https://youtu.be/P1OwDXmdedQ",
+        rated: "5",
+        description: "In 1994 Seoul, a teenage girl's life is changed when a new teacher enters her life.",
     }
+
 
 ]
