@@ -17,7 +17,7 @@
 
             <div class="navigations-container gap-20">
                 <div class="navigations gap-25 highlight">
-                    <a href="">Films</a>
+                    <a href="all-movies.html">Films</a>
                     <a href="">Favorites</a>
                     <a href="">Watchlist</a>
                 </div>
@@ -31,29 +31,27 @@
         </div>
 
         <div class="movie-container gap-20">
-            <div class="poster-buttons-container">
+            <div class="poster-buttons-container gap-5">
                 <div class="poster-container">
-                    <img src="./posters/aftersun (2022)/1O3MXdQZ0XvtvG3emWCvmE1Zzxe.jpg" alt="">
+                    <img src="./posters/aftersun (2022)/1O3MXdQZ0XvtvG3emWCvmE1Zzxe.jpg" id="movie-poster" alt="">
                 </div>
-                <button type="button">Trailer</button>
-                <button type="button">Add to Watchlist</button>
+                <a class="button text-body" type="button" target="_blank" id="trailer-button" href="">Trailer</a>
+                <a class="button text-body" type="button">Add to Watchlist</a>
             </div>
 
-            <div class="description-container">
-                <div class="title-container gap-5">
-                    <h1 class="title">Title</h1>
-                    <h2 class="highlight">(2022)</h2>
+            <div class="movie-info-container">
+                <div class="title-director-container">
+                    <div class="title-container gap-5">
+                        <h1 class="title" id="movie-title">Title</h1>
+                        <h2 class="highlight" id="movie-year">(2046)</h2>
+                    </div>
+                    <h3 class="highlight" id="movie-director">Directed by</h3>
                 </div>
-                <h3 class="highlight">Directed by IE</h3>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                </div>
-                <div class="movie-description-container">
-                    <p class="text-body">Sophie reflects on the shared joy and private melancholy of a holiday she took with her father twenty years earlier. Memories real and imagined fill the gaps between miniDV footage as she tries to reconcile the father she knew with the man she didn't.</p>
+
+                <div class="rating" id="star-rating"></div>
+
+                <div class="movie-description-container text-body">
+                    <p id="movie-description">letterboxd.com/kagieu</p>
                 </div>
 
             </div>
@@ -70,6 +68,9 @@
 
 
     </div>
+
+    <script src="movie-list.js"></script>
+    <script src="movie-page.js"></script>
 
 </body>
 </html>
