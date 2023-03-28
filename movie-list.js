@@ -66,7 +66,7 @@ window.movies = [
         director: "Kim Bora",
         trailer: "https://youtu.be/P1OwDXmdedQ",
         rated: 5,
-        description: "In 1994 Seoul, a teenage girl's life is changed when a new teacher enters her life.",
+        description: "Whatever she does, Eunhee feels like an outsider. Then her new Chinese teacher turns out to be so utterly different from everybody else. A compassionate and meticulously told narrative of a seemingly regular summer that leaves nothing unchanged.",
         poster: "./posters/house of hummingbird (2019)/azqkMjfwdXuK6OzrrGNYyUnHOAQ.jpg",
     },
     {
