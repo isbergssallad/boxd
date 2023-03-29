@@ -298,8 +298,8 @@ input {
     align-items: center;
     justify-content: center;
     width: auto;
-    height: 700px;
-    padding-top: 65px;
+    min-height: 750px;
+    padding: 50px;
 }
 
 .movie-info-container {
@@ -379,4 +379,18 @@ input {
 
 .all-movies img:hover{
     opacity: 0.8;
+}
+
+
+@media (max-width: 650px){
+    .movie-container{
+        display: flex;
+        flex-direction: column;
+        padding-top: 85px;
+        padding-bottom: 85px;
+        justify-content: center;
+    }
+
+
+    
 }
