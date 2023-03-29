@@ -97,6 +97,14 @@
     font-weight: 500;
 }
 
+.tagline {
+    font-size: 12pt;
+    font-family: "Inter-Regular";
+    font-weight: 600;
+    font-style: italic;
+    color: #3c3c3c;
+}
+
 
 * {
     margin: 0;
@@ -341,7 +349,9 @@ input {
 }
 
 .movie-description-container {
-    max-width: 420px;
+    display: flex;
+    flex-direction: column;
+    width: 420px;
     height: auto;
 }
 

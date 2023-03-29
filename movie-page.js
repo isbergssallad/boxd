@@ -7,6 +7,7 @@ const movie = window.movies.find(m => m.id === movieid)
 document.getElementById("movie-title").textContent = movie.title;
 document.getElementById("movie-director").textContent = "Directed by " + movie.director
 document.getElementById("movie-year").textContent = movie.year;
+document.getElementById("tagline").textContent = movie.tagline;
 document.getElementById("movie-description").textContent = movie.description;
 document.getElementById("movie-poster").src = movie.poster;
 document.getElementById("trailer-button").href = movie.trailer;
