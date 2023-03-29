@@ -276,14 +276,16 @@ input {
 
 .button {
     background-color: #1a1c1c; /* Green */
-    color: rgb(252, 252, 252);
-    padding: 7px 20px;
+    color: #eeeeee;
+    padding: 7px 19px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 15px;
     width: fit-content;
     border: 2px solid black;
+    font-family: "Inter-Regular";
+    font-weight: 600;
   }
 
 .button:hover {
@@ -312,6 +314,7 @@ input {
 .poster-container img{
     width: 300px;
     height: auto;
+    border: 2px solid #131313;
 }
 
 .poster-buttons-container {
@@ -320,6 +323,7 @@ input {
     justify-content: center;
     align-items: center;
 }
+
 
 
 .title-container {
@@ -366,8 +370,9 @@ input {
 }
 
 .all-movies img{
-    width: 230px;
+    width: 150px;
     height: auto;
+    border-radius: 5px;
 }
 
 .all-movies img:hover{
