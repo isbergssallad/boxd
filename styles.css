@@ -327,11 +327,13 @@ input {
 
 
 .title-container {
-    display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: flex-start;
 }
+
+.title-container h1, .title-container h2 {
+    display: inline;
+}
+
 
 .title-director-container {
     display: flex;
