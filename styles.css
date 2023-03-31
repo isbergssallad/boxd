@@ -256,7 +256,7 @@ input[type=text]:focus {outline:none;}
 
 .footer {
     width: auto;
-    height: 300px;
+    height: 200px;
     background-color: #4A5859;
     border-top: 2px solid #161616;
     display: flex;

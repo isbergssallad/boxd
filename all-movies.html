@@ -32,6 +32,15 @@
 
         <div class="all-movies-container">
             <h1 class="page-title">ALL MOVIES</h1>
+            <div class="filter-condition highligt">
+                <span>Sort by:</span>
+                <select name="" id="sort-select">
+                    <option value="default">Default</option>
+                    <option value="a-z">A-Z</option>
+                    <option value="high-to-low">Rating: High to Low</option>
+                    <option value="low-to-high">Rating: Low to High</option>
+                </select>
+            </div>
             <div class="all-movies" id="allmovies"></div>
         </div>
 
@@ -47,6 +56,7 @@
     <script src="movie-list.js"></script>
     <script src="all-movies.js"></script>
     <script src="movie-page.js"></script>
+    <script src="sort-function.js"></script>
 
 </body>
 </html>

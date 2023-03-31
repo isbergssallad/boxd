@@ -22,3 +22,6 @@ for (let i = 0; i < movie.rated; i++) {
     rating.append(stars);
   }
 
+
+
+
