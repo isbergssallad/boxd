@@ -1,2 +1,7 @@
-let field = document.getElementById("allmovies")
-let select = documemt.getElementById("sort-select")
+sort.onchange = sortingValue;
+
+function sortingValue(){
+    if(this.value === "a-z")
+    window.movies = window.movies.sort()
+    location.reload()
+}
