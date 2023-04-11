@@ -1,7 +1,8 @@
 sort.onchange = sortingValue;
 
 function sortingValue(){
-    if(this.value === "a-z")
-    window.movies = window.movies.sort()
-    location.reload()
+    if(sortingValue.value === "a-z"){
+        window.movies.sort((a, b) => (a.title > b.title ? 1 : -1));
+        location.reload()
+    } 
 }
