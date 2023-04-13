@@ -341,6 +341,7 @@ window.movies = [
         tagline: "Is it better to speak or die?",
         description: "In 1980s Italy, a relationship begins between seventeen-year-old teenage Elio and the older adult man hired as his father's research assistant.",
         poster: "./posters/call me by your name (2017)/mZ4gBdfkhP9tvLH1DO4m4HYtiyi.jpg",
+        backdrop: "./posters/call me by your name (2017)/fwf4L3r2ZU9ptOB9nOo5nuVLo1i.jpg",
     },
     {
         id: "thor-love-and-thunder",
@@ -352,6 +353,7 @@ window.movies = [
         tagline: "The one is not the only.",
         description: "After his retirement is interrupted by Gorr the God Butcher, a galactic killer who seeks the extinction of the gods, Thor Odinson enlists the help of King Valkyrie, Korg, and ex-girlfriend Jane Foster, who now wields Mjolnir as the Mighty Thor. Together they embark upon a harrowing cosmic adventure to uncover the mystery of the God Butcher’s vengeance and stop him before it’s too late.",
         poster: "./posters/thor love and thunder (2022)/pIkRyD18kl4FhoCNQuWxWu5cBLM.jpg",
+        backdrop: "./posters/thor love and thunder (2022)/k7gdBpt5IrJZNsvvYUMwRc98j5F.jpg",
     },
     {
         id: "the-emoji-movie",
@@ -363,6 +365,7 @@ window.movies = [
         tagline: "Not easy being meh",
         description: "Gene, a multi-expressional emoji, sets out on a journey to become a normal emoji.",
         poster: "./posters/the emoji movie (2017)/7AfUVXwnfkOSWnFsPb5WdzxGNqp.jpg",
+        backdrop: "./posters/the emoji movie (2017)/kTrgxhRSj2sun89bDbnGCPBiey6.jpg",
     },
     {
         id: "justice-league",
@@ -374,6 +377,7 @@ window.movies = [
         tagline: "You can't save the world alone",
         description: "Fuelled by his restored faith in humanity and inspired by Superman's selfless act, Bruce Wayne and Diana Prince assemble a team of metahumans consisting of Barry Allen, Arthur Curry and Victor Stone to face the catastrophic threat of Steppenwolf and the Parademons who are on the hunt for three Mother Boxes on Earth.",
         poster: "./posters/justice league (2017)/eRoXqOzciHkSPs1Z8pGnJMZo0Zb.jpg",
+        backdrop: "./posters/justice league (2017)/2nyaeISu2xIxIgZYNpX4UayY8PN.jpg",
     },
     {
         id: "bird-box",
@@ -385,6 +389,7 @@ window.movies = [
         tagline: "Never lose sight of survival",
         description: "Five years after an ominous unseen presence drives most of society to suicide, a survivor and her two children make a desperate bid to reach safety.",
         poster: "./posters/bird box (2018)/rGfGfgL2pEPCfhIvqHXieXFn7gp.jpg",
+        backdrop: "./posters/bird box (2018)/z6m7s4w4Erxnr5k2jc1TZR1AMva.jpg",
     },
     {
         id: "a-quiet-place",
@@ -396,6 +401,7 @@ window.movies = [
         tagline: "If they hear you, they hunt you.",
         description: "A family is forced to live in silence while hiding from creatures that hunt by sound.",
         poster: "./posters/a quiet place (2018)/nAU74GmpUk7t5iklEp3bufwDq4n.jpg",
+        backdrop: "./posters/a quiet place (2018)/kkH75RXDC34rXIJhFpCP5TWAXVE.jpg",
     },
     {
         id: "green-book",
@@ -407,6 +413,7 @@ window.movies = [
         tagline: "Inspired by a True Friendship",
         description: "Tony Lip, a bouncer in 1962, is hired to drive pianist Don Shirley on a tour through the Deep South in the days when African Americans, forced to find alternate accommodations and services due to segregation laws below the Mason-Dixon Line, relied on a guide called The Negro Motorist Green Book.",
         poster: "./posters/green book (2018)/7BsvSuDQuoqhWmU2fL7W2GOcZHU.jpg",
+        backdrop: "./posters/green book (2018)/b05DiO4cFFKSNSE4tu3XpoiRDRw.jpg",
     },
     {
         id: "22-jump-street",
@@ -418,6 +425,7 @@ window.movies = [
         tagline: "They're not 21 anymore",
         description: "After making their way through high school (twice), big changes are in store for officers Schmidt and Jenko when they go deep undercover at a local college. But when Jenko meets a kindred spirit on the football team, and Schmidt infiltrates the bohemian art major scene, they begin to question their partnership. Now they don't have to just crack the case - they have to figure out if they can have a mature relationship. If these two overgrown adolescents can grow from freshmen into real men, college might be the best thing that ever happened to them.",
         poster: "./posters/22 jump street (2014)/ajB6cGvoy04438RzvfO6Sz28yMK.jpg",
+        backdrop: "./posters/22 jump street (2014)/hA5lh2EQyvJpXwAU5Ofl4UzXeDp.jpg",
     },
     {
         id: "iron-man-2",
@@ -429,6 +437,7 @@ window.movies = [
         tagline: "It's not the armor that makes the hero, but the man inside.",
         description: "With the world now aware of his dual life as the armored superhero Iron Man, billionaire inventor Tony Stark faces pressure from the government, the press and the public to share his technology with the military. Unwilling to let go of his invention, Stark, with Pepper Potts and James 'Rhodey' Rhodes at his side, must forge new alliances – and confront powerful enemies.",
         poster: "./posters/iron man 2 (2010)/6WBeq4fCfn7AN0o21W9qNcRF2l9.jpg",
+        backdrop: "./posters/iron man 2 (2010)/6zINLC59ButA0fjAQIyJmFFNdjM.jpg",
     },
     {
         id: "prey-for-the-devil",
@@ -440,6 +449,7 @@ window.movies = [
         tagline: "It wants in.",
         description: "In response to a global rise in demonic possessions, the Catholic Church reopens exorcism schools to train priests in the Rite of Exorcism. On this spiritual battlefield, an unlikely warrior rises: a young nun, Sister Ann. Thrust onto the spiritual frontline with fellow student Father Dante, Sister Ann finds herself in a battle for the soul of a young girl and soon realizes the Devil has her right where he wants her.",
         poster: "./posters/prey for the devil (2022)/w3s6XEDNVGq5LUlghqs6VlvsvL6.jpg",
+        backdrop: "./posters/prey for the devil (2022)/cZd1kyd7tXv8l8ruup5H4rUlHRz.jpg",
     },
     {
         id: "inside-out",
@@ -451,6 +461,7 @@ window.movies = [
         tagline: "Meet the little voices inside your head.",
         description: "Growing up can be a bumpy road, and it's no exception for Riley, who is uprooted from her Midwest life when her father starts a new job in San Francisco. Riley's guiding emotions— Joy, Fear, Anger, Disgust and Sadness—live in Headquarters, the control centre inside Riley's mind, where they help advise her through everyday life and tries to keep things positive, but the emotions conflict on how best to navigate a new city, house and school.",
         poster: "./posters/inside out (2015)/2H1TmgdfNtsKlU9jKdeNyYL5y8T.jpg",
+        backdrop: "./posters/inside out (2015)/j29ekbcLpBvxnGk6LjdTc2EI5SA.jpg",
     },
     {
         id: "thor",
@@ -462,6 +473,7 @@ window.movies = [
         tagline: "Two worlds. One hero.",
         description: "Against his father Odin's will, The Mighty Thor - a powerful but arrogant warrior god - recklessly reignites an ancient war. Thor is cast down to Earth and forced to live among humans as punishment. Once here, Thor learns what it takes to be a true hero when the most dangerous villain of his world sends the darkest forces of Asgard to invade Earth.",
         poster: "./posters/thor (2011)/prSfAi1xGrhLQNxVSUFh61xQ4Qy.jpg",
+        backdrop: "./posters/thor (2011)/8rk1VyBbMbb6tVLQ8FzfyFxx5EP.jpg",
     },
     {
         id: "suicide-squad",
@@ -473,6 +485,7 @@ window.movies = [
         tagline: "Worst Heroes Ever",
         description: "From DC Comics comes the Suicide Squad, an antihero team of incarcerated supervillains who act as deniable assets for the United States government, undertaking high-risk black ops missions in exchange for commuted prison sentences.",
         poster: "./posters/suicide squad (2016)/xFw9RXKZDvevAGocgBK0zteto4U.jpg",
+        backdrop: "./posters/suicide squad (2016)/zC70x9wqPPtxU99HsoGsxQ8IhSw.jpg",
     },
     {
         id: "xmen-days-of-future-past",
@@ -484,6 +497,7 @@ window.movies = [
         tagline: "To save the future, they must alter the past.",
         description: "The ultimate X-Men ensemble fights a war for the survival of the species across two time periods as they join forces with their younger selves in an epic battle that must change the past – to save our future.",
         poster: "./posters/xmen days of future past (2014)/tYfijzolzgoMOtegh1Y7j2Enorg.jpg",
+        backdrop: "./posters/xmen days of future past (2014)/6RZZNx2irPBou7JyFGwOIoioPYK.jpg",
     },
     {
         id: "see-how-they-run",
@@ -495,6 +509,7 @@ window.movies = [
         tagline: "The greatest murder ever staged.",
         description: "In the West End of 1950s London, plans for a movie version of a smash-hit play come to an abrupt halt after a pivotal member of the crew is murdered. When world-weary Inspector Stoppard and eager rookie Constable Stalker take on the case, the two find themselves thrown into a puzzling whodunit within the glamorously sordid theater underground, investigating the mysterious homicide at their own peril.",
         poster: "./posters/see how they run (2022)/r3rpSAi2yukZwr9H2km0WKGODWo.jpg",
+        backdrop: "./posters/see how they run (2022)/yOg3dhozpoWzoNYA6fAfOIvEr3G.jpg",
     },
     {
         id: "love-and-other-drugs",
@@ -506,6 +521,7 @@ window.movies = [
         tagline: "Addicted to one-night stands or dependent on one another?",
         description: "Maggie is an alluring free spirit who won't let anyone – or anything – tie her down. But she meets her match in Jamie, whose relentless and nearly infallible charm serves him well with the ladies and the cutthroat world of pharmaceutical sales. Maggie and Jamie's evolving relationship takes them both by surprise, as they find themselves under the influence of the ultimate drug: love.",
         poster: "./posters/love and other drugs (2010)/1nXN4e3IoTJD42ci7WHZeI1Cgpm.jpg",
+        backdrop: "./posters/love and other drugs (2010)/zHSy37MotFLsnPKyGu9w9YF9FMm.jpg",
     },
     {
         id: "neon-genesis-evangelion",
@@ -516,6 +532,7 @@ window.movies = [
         rated: 5,
         description: "At the turn of the century, the Angels returned to Earth, seeking to wipe out humanity in an apocalyptic fury. Devastated, mankind's last remnants moved underground to wait for the day when the Angels would come back to finish the job. Fifteen years later, that day has come... but this time, humanity is ready to fight back with terrifying bio-mechanical weapons known as the Evangelions. Watch as Shinji, Rei, Asuka and the rest of the mysterious shadow agency Nerv battle to save earth from total annihilation.",
         poster: "./posters/neon genesis evangelion (1995)/y2ah9t0navXyIvoHg1uIbIHO3tt.jpg",
+        backdrop: "./posters/neon genesis evangelion (1995)/kodyR4sQ1gPbNgQoyk1ADU8ZTSk.jpg",
     },
     {
         id: "memento",
@@ -527,6 +544,7 @@ window.movies = [
         tagline: "Some memories are best forgotten.",
         description: "Leonard Shelby is tracking down the man who raped and murdered his wife. The difficulty of locating his wife's killer, however, is compounded by the fact that he suffers from a rare, untreatable form of short-term memory loss. Although he can recall details of life before his accident, Leonard cannot remember what happened fifteen minutes ago, where he's going, or why.",
         poster: "./posters/memento (2000)/bDgEwnPFcPrJcM5xvkt8EphZ9A3.jpg",
+        backdrop: "./posters/memento (2000)/v4u9FnSOpLEjPIAhbKClM45LJoJ.jpg",
     },
     {
         id: "clueless",
@@ -538,6 +556,7 @@ window.movies = [
         tagline: "Sex. Clothes. Popularity. Is there a problem here?",
         description: "Shallow, rich and socially successful Cher is at the top of her Beverly Hills high school's pecking scale. Seeing herself as a matchmaker, Cher first coaxes two teachers into dating each other. Emboldened by her success, she decides to give hopelessly klutzy new student Tai a makeover. When Tai becomes more popular than she is, Cher realizes that her disapproving ex-stepbrother was right about how misguided she was -- and falls for him.",
         poster: "./posters/clueless (1995)/8AwVTcgpTnmeOs4TdTWqcFDXEsA.jpg",
+        backdrop: "./posters/clueless (1995)/pmE7AXRn2X0PVVHvcZ5uvxJfN2R.jpg",
     },
     {
         id: "the-devil-wears-prada",
@@ -549,6 +568,7 @@ window.movies = [
         tagline: "Meet Andy Sachs. A million girls would kill to have her job. She's not one of them.",
         description: "Andy moves to New York to work in the fashion industry. Her boss is extremely demanding, cruel and won't let her succeed if she doesn't fit into the high class elegant look of their magazine.",
         poster: "./posters/the devil wears prada (2006)/vJDNtAsMsQNfy8uG6jy9HnlVXYo.jpg",
+        backdrop: "./posters/the devil wears prada (2006)/piIdisd6wydVa3qvmSSJIWaCi7I.jpg",
     },
     {
         id: "gifted",
@@ -559,6 +579,7 @@ window.movies = [
         rated: 4,
         description: "Frank, a single man raising his child prodigy niece Mary, is drawn into a custody battle with his mother.",
         poster: "./posters/gifted (2017)/7YB2YrMwIm1g8FyZtlvmVDfRnAT.jpg",
+        backdrop: "./posters/gifted (2017)/iIHN4F31IGqBPv8IDTse3NSjbY8.jpg",
     },
     {
         id: "the-imitation-game",
@@ -570,6 +591,7 @@ window.movies = [
         tagline: "The true enigma was the man who cracked the code.",
         description: "Based on the real life story of legendary cryptanalyst Alan Turing, the film portrays the nail-biting race against time by Turing and his brilliant team of code-breakers at Britain's top-secret Government Code and Cypher School at Bletchley Park, during the darkest days of World War II.",
         poster: "./posters/the imitation game (2014)/lLZxUpNnLHklJ7IA75CbjfE0xra.jpg",
+        backdrop: "./posters/the imitation game (2014)/pzWkJimQ41Uwo7r95plYcbce7sK.jpg",
     },
     {
         id: "gone-girl",
@@ -581,6 +603,7 @@ window.movies = [
         tagline: "You don't know what you've got 'til it's...",
         description: "With his wife's disappearance having become the focus of an intense media circus, a man sees the spotlight turned on him when it's suspected that he may not be innocent.",
         poster: "./posters/gone girl (2014)/l3TzM0e6OqbaWHLJrJ594KNjhL0.jpg",
+        backdrop: "./posters/gone girl (2014)/2JXoeqbcXZxIb99zA4BTwmK1dDC.jpg",
     },
     {
         id: "big-hero-6",
@@ -592,6 +615,7 @@ window.movies = [
         tagline: "From the creators of Wreck-It Ralph and Frozen.",
         description: "A special bond develops between plus-sized inflatable robot Baymax, and prodigy Hiro Hamada, who team up with a group of friends to form a band of high-tech heroes.",
         poster: "./posters/big hero 6 (2014)/7JEqFZ47vD5Bii3gSZc99uPaX18.jpg",
+        backdrop: "./posters/big hero 6 (2014)/xOAqBTRTfZ1gR0lWqjgv4nElN9n.jpg",
     },
     {
         id: "smile",
@@ -603,6 +627,7 @@ window.movies = [
         tagline: "Once you see it, it’s too late.",
         description: "After witnessing a bizarre, traumatic incident involving a patient, Dr. Rose Cotter starts experiencing frightening occurrences that she can't explain. As an overwhelming terror begins taking over her life, Rose must confront her troubling past in order to survive and escape her horrifying new reality.",
         poster: "./posters/smile (2022)/67Myda9zANAnlS54rRjQF4dHNNG.jpg",
+        backdrop: "./posters/smile (2022)/mVNPfpydornVe4H4UCIk7WevWjf.jpg",
     },
     {
         id: "megamind",
@@ -614,6 +639,7 @@ window.movies = [
         tagline: "His brain is off the chain.",
         description: "Bumbling supervillain Megamind finally defeats his nemesis, the superhero Metro Man. But without a hero, he loses all purpose and must find new meaning to his life.",
         poster: "./posters/megamind (2010)/7rb7ksmpmBALC9P154wtf0ot2ee.jpg",
+        backdrop: "./posters/megamind (2010)/8NXxm2P2Q299vyxunvMpZ0LFhwb.jpg",
     },
     {
         id: "13-going-on-30",
@@ -625,6 +651,7 @@ window.movies = [
         tagline: "For some, 13 feels like it was just yesterday. For Jenna, it was.",
         description: "After total humiliation at her thirteenth birthday party, Jenna Rink wants to just hide until she's thirty. With a little magic, her wish is granted, but it turns out that being thirty isn't as always as awesome as she thought it would be!",
         poster: "./posters/13 going on 30 (2004)/l8d8CGdAGAwLvDXW5lSQ7churfI.jpg",
+        backdrop: "./posters/13 going on 30 (2004)/1sJoLA3bjKvblPh7GR9URBWZsDO.jpg",
     },
     {
         id: "the-perks-of-being-a-wallflower",
@@ -636,6 +663,7 @@ window.movies = [
         tagline: "We are infinite.",
         description: "Pittsburgh, Pennsylvania, 1991. High school freshman Charlie is a wallflower, always watching life from the sidelines, until two senior students, Sam and her stepbrother Patrick, become his mentors, helping him discover the joys of friendship, music and love.",
         poster: "./posters/the perks of being a wallflower (2012)/trx7UZ6kKoR24MYZwOMqJKki0G1.jpg",
+        backdrop: "./posters/the perks of being a wallflower (2012)/qb6WoLJ9YtfhV7pgsTfUDlRYaCH.jpg",
     },
     {
         id: "spider-man-no-way-home",
@@ -647,6 +675,7 @@ window.movies = [
         tagline: "The Multiverse unleashed.",
         description: "Peter Parker is unmasked and no longer able to separate his normal life from the high-stakes of being a super-hero. When he asks for help from Doctor Strange the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.",
         poster: "./posters/spider man no way home (2021)/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg",
+        backdrop: "./posters/spider man no way home (2021)/5BjetzdVpWkPNKUIlpasnXVSwCP.jpg",
     },
     {
         id: "avengers-endgame",
@@ -658,6 +687,7 @@ window.movies = [
         tagline: "Avenge the fallen.",
         description: "After the devastating events of Avengers: Infinity War, the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos' actions and restore order to the universe once and for all, no matter what consequences may be in store.",
         poster: "./posters/avengers endgame (2019)/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
+        backdrop: "./posters/avengers endgame (2019)/euFbK14mZe1lYOTiQF95tjyJlgL.jpg",
     },
     {
         id: "the-anthem-of-the-heart",
@@ -669,6 +699,7 @@ window.movies = [
         tagline: "Beautiful Word, Beautiful World.",
         description: "A young girl had her voice magically taken away so that she would never hurt people with it, but her outlook changes when she encounters music and friendship. Will Naruse be able to convey the anthem of her heart?",
         poster: "./posters/the anthem of the heart (2015)/h9UUOcgaHClUIQqebo6hBDMOE89.jpg",
+        backdrop: "./posters/the anthem of the heart (2015)/A4EYBTiUFUS1av5xb5GDjvouJJN.jpg",
     },
     {
         id: "deadpool",
@@ -680,6 +711,7 @@ window.movies = [
         tagline: "Witness the beginning of a happy ending.",
         description: "The origin story of former Special Forces operative turned mercenary Wade Wilson, who, after being subjected to a rogue experiment that leaves him with accelerated healing powers, adopts the alter ego Deadpool. Armed with his new abilities and a dark, twisted sense of humor, Deadpool hunts down the man who nearly destroyed his life.",
         poster: "./posters/deadpool (2016)/fSRb7vyIP8rQpL0I47P3qUsEKX3.jpg",
+        backdrop: "./posters/deadpool (2016)/n28I7FNYIT934OoHhKZn4IIDsrQ.jpg",
     },
     {
         id: "kung-fu-panda",
@@ -691,6 +723,7 @@ window.movies = [
         tagline: "Prepare for awesomeness.",
         description: 'When the Valley of Peace is threatened, lazy Po the panda discovers his destiny as the "chosen one" and trains to become a kung fu hero, but transforming the unsleek slacker into a brave warrior won\'t be easy. It\'s up to Master Shifu and the Furious Five -- Tigress, Crane, Mantis, Viper and Monkey -- to give it a try.',
         poster: "./posters/kung fu panda (2008)/mKMupnD5ilFRPXnyKTE6JEzEm73.jpg",
+        backdrop: "./posters/kung fu panda (2008)/AuObd6CFdxvNfGwL0izPzn0I5jM.jpg",
     },
     {
         id: "my-neighbour-totoro",
@@ -701,6 +734,7 @@ window.movies = [
         rated: 5,
         description: "Two sisters move to the country with their father in order to be closer to their hospitalized mother, and discover the surrounding trees are inhabited by Totoros, magical spirits of the forest. When the youngest runs away from home, the older sister seeks help from the spirits to find her.",
         poster: "./posters/my neighbour totoro (1988)/fdQTEzDt3CSAlJU8x2DwutfesDG.jpg",
+        backdrop: "./posters/my neighbour totoro (1988)/6O1mOoTXuc1WqjKd2R7MFQHZ7Eb.jpg",
     },
     {
         id: "the-banshees-of-inisherin",
@@ -712,6 +746,7 @@ window.movies = [
         tagline: "Everything was fine yesterday.",
         description: "Two lifelong friends find themselves at an impasse when one abruptly ends their relationship, with alarming consequences for both of them.",
         poster: "./posters/the banshees of inisherin (2022)/4yFG6cSPaCaPhyJ1vtGOtMD1lgh.jpg",
+        backdrop: "./posters/the banshees of inisherin (2022)/frLvNMm25SlmvEZM8hlhYKBkGoS.jpg",
     },
     {
         id: "the-grand-budapest-hotel",
@@ -735,6 +770,7 @@ window.movies = [
         tagline: "I want us to be brothers again, like we used to be.",
         description: 'Three American brothers who have not spoken to each other in a year set off on a train voyage across India with a plan to find themselves and bond with each other -- to become brothers again like they used to be. Their "spiritual quest", however, veers rapidly off-course (due to events involving over-the-counter pain killers, Indian cough syrup, and pepper spray).',
         poster: "./posters/the darjeeling limited (2007)/r8Xf89ALP9VGJcCFU1HvK4H3ecX.jpg",
+        backdrop: "./posters/the darjeeling limited (2007)/gvxpmzXHifgGwbUa0KFRdhShrcS.jpg",
     },
     {
         id: "fantastic-mr.fox",
@@ -746,6 +782,7 @@ window.movies = [
         tagline: "Dig the life fantastic!",
         description: "The Fantastic Mr. Fox bored with his current life, plans a heist against the three local farmers. The farmers, tired of sharing their chickens with the sly fox, seek revenge against him and his family.",
         poster: "./posters/fantastic mr.fox (2009)/euZyZb6iGreujYKrGyZHRddhUYh.jpg",
+        backdrop: "./posters/fantastic mr.fox (2009)/g6Z7I2a1aGLW4I3qbKioNe2y6qO.jpg",
     },
     {
         id: "interstellar",
@@ -757,6 +794,7 @@ window.movies = [
         tagline: "Mankind was born on Earth. It was never meant to die here.",
         description: "The adventures of a group of explorers who make use of a newly discovered wormhole to surpass the limitations on human space travel and conquer the vast distances involved in an interstellar voyage.",
         poster: "./posters/interstellar (2014)/yCKxTlmPNQBoAl5qlHfn0GHMLjV.jpg",
+        backdrop: "./posters/interstellar (2014)/vgnoBSVzWAV9sNQUORaDGvDp7wx.jpg",
     },
     {
         id: "close-up",
@@ -768,6 +806,7 @@ window.movies = [
         tagline: "",
         description: "This fiction-documentary hybrid uses a sensational real-life event—the arrest of a young man on charges that he fraudulently impersonated the well-known filmmaker Mohsen Makhmalbaf—as the basis for a stunning, multilayered investigation into movies, identity, artistic creation, and existence, in which the real people from the case play themselves.",
         poster: "./posters/close-up (1990)/1qDNUpJqY3OohnJCfMfyOfzw5kX.jpg",
+        backdrop: "./posters/close-up (1990)/53l4cXtgsSV34dVRdu1ucgaWYm8.jpg",
     },
     {
         id: "the-lobster",
@@ -779,6 +818,7 @@ window.movies = [
         tagline: "An unconventional love story...",
         description: "In a dystopian near future, single people, according to the laws of The City, are taken to The Hotel, where they are obliged to find a romantic partner in forty-five days or are transformed into animals and sent off into The Woods.",
         poster: "./posters/the lobster (2015)/7Y9ILV1unpW9mLpGcqyGQU72LUy.jpg",
+        backdrop: "./posters/the lobster (2015)/s48CvFbWoWHhSPgz2wW9Rffw04q.jpg",
     },
     {
         id: "",

@@ -11,6 +11,8 @@ document.getElementById("movie-description").textContent = movie.description;
 document.getElementById("movie-poster").src = movie.poster;
 document.getElementById("movie-backdrop").src = movie.backdrop;
 document.getElementById("trailer-button").href = movie.trailer;
+var backdropURL = movie.backdrop;
+document.getElementById("movie-container").style.backgroundImage = "url(backdropURL)";
 rating = document.getElementById("star-rating");
 
 const trailerButton = document.getElementById("trailer-button");
