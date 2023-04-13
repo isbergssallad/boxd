@@ -336,22 +336,32 @@ input {
     justify-content: center;
     align-items: center;
     padding-top: 80px;
-    
+}
+
+.backdrop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: auto;
 }
 
 .backdrop img {
-    width: 800px;
+    width: 100%;
     height: auto;
     border: 2px solid black;
 }
 
 .title-container {
     align-items: center;
+    max-width: 350px;
+    height: auto;
 }
 
 .title-container h1, .title-container h2 {
     display: inline;
 }
+
 
 
 .title-director-container {

@@ -9,6 +9,7 @@ window.movies = [
         tagline: "Memory burns.",
         description: "Sophie reflects on the shared joy and private melancholy of a holiday she took with her father twenty years earlier. Memories real and imagined fill the gaps between miniDV footage as she tries to reconcile the father she knew with the man she didn't.",
         poster: "./posters/aftersun (2022)/jeXmhP2zbUkREMRqFOYIwQOk49T.jpg",
+        backdrop: "./posters/aftersun (2022)/4jdduww9j5RyzO4ITRcuBFhqNN1.jpg",
     },
     {
         id: "everything-everywhere-all-at-once",
@@ -20,6 +21,7 @@ window.movies = [
         tagline: "The universe is so much bigger than you realize.",
         description: "An aging Chinese immigrant is swept up in an insane adventure, where she alone can save what's important to her by connecting with the lives she could have led in other universes.",
         poster: "./posters/everything everywhere all at once (2022)/q2VDgaPHJVZ6YXyXdycVM2F2d7E.jpg",
+        backdrop: "./posters/everything everywhere all at once (2022)/wp3vpSWAIjKSEeYb8F5NSZfONqw.jpg",
     },
     {
         id: "heat",
@@ -31,6 +33,7 @@ window.movies = [
         tagline: "A Los Angeles crime saga.",
         description: "Obsessive master thief Neil McCauley leads a top-notch crew on various daring heists throughout Los Angeles while determined detective Vincent Hanna pursues him without rest. Each man recognizes and respects the ability and the dedication of the other even though they are aware their cat-and-mouse game may end in violence.",
         poster: "./posters/heat (1995)/twXYxcrup1QzyT84g2kbuz1iN01.jpg",
+        backdrop: "./posters/heat (1995)/rfEXNlql4CafRmtgp2VFQrBC4sh.jpg",
     },
     {
         id: "minari",
@@ -41,6 +44,7 @@ window.movies = [
         rated: 5,
         description: "A Korean American family moves to an Arkansas farm in search of its own American dream. Amidst the challenges of this new life in the strange and rugged Ozarks, they discover the undeniable resilience of family and what really makes a home.",
         poster: "./posters/minari (2021)/6mPNdmjdbVKPITv3LLCmQoKs9Zw.jpg",
+        backdrop: "./posters/minari (2021)/sthDtZfswdU0d0U8SImsy5eEYy4.jpg",
     },
     {
         id: "chungking-express",
@@ -52,6 +56,7 @@ window.movies = [
         tagline: "What a difference a day makes.",
         description: "Two melancholic Hong Kong policemen fall in love: one with a mysterious underworld figure, the other with a beautiful and ethereal server at a late-night restaurant.",
         poster: "./posters/chungking express (1994)/43I9DcNoCzpyzK8JCkJYpHqHqGG.jpg",
+        backdrop: "./posters/chungking express (1994)/i4m14DMv0JG4AOH6sP7Pes87A9x.jpg",
     },
     {
         id: "nope",
@@ -63,6 +68,7 @@ window.movies = [
         tagline: "What’s a bad miracle?",
         description: "Residents in a lonely gulch of inland California bear witness to an uncanny, chilling discovery.",
         poster: "./posters/nope (2022)/krvPgQ44o33hEpZfXnPTDoZz62S.jpg",
+        backdrop: "./posters/nope (2022)/m5yI9tfWC8sGJympxgHHYoqy4PW.jpg",
     },
     {
         id: "house-of-hummingbird",
@@ -74,6 +80,7 @@ window.movies = [
         tagline: "Among all the people you know, how many really understand what's going on inside you?",
         description: "Whatever she does, Eunhee feels like an outsider. Then her new Chinese teacher turns out to be so utterly different from everybody else. A compassionate and meticulously told narrative of a seemingly regular summer that leaves nothing unchanged.",
         poster: "./posters/house of hummingbird (2019)/azqkMjfwdXuK6OzrrGNYyUnHOAQ.jpg",
+        backdrop: "./posters/house of hummingbird (2019)/lgxmbRLeyofYOBcPT3tGDsgsTYS.jpg",
     },
     {
         id: "in-the-mood-for-love",
@@ -85,6 +92,7 @@ window.movies = [
         tagline: "Feel the heat, keep the feeling burning, let the sensation explode.",
         description: "Taking place in Hong Kong of 1962, a melancholy story about the love between a woman and a man who live in the same building and one day find out that their husband and wife had an affair with each other.",
         poster: "./posters/in the mood for love (2000)/iYypPT4bhqXfq1b6EnmxvRt6b2Y.jpg",
+        backdrop: "./posters/in the mood for love (2000)/2USUGY484L6sUkjeD1Y0rG8uRC9.jpg",
     },
     {
         id: "spirited-away",
@@ -95,6 +103,7 @@ window.movies = [
         rated: 5,
         description: "A young girl, Chihiro, becomes trapped in a strange new world of spirits. When her parents undergo a mysterious transformation, she must call upon the courage she never knew she had to free her family.",
         poster: "./posters/spirited away (2001)/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg",
+        backdrop: "./posters/spirited away (2001)/dyJvKsNs2KP8qQnAXbRwDjblViy.jpg", 
     },
     {
         id: "all-about-lily-chou-chou",
@@ -106,6 +115,7 @@ window.movies = [
         tagline: "Pain can take you in prison. The ether can set you free.",
         description: "Charts the troubled teenage years of students Yūichi Hasumi and Shūsuke Hoshino, exploring the shifting and complex power dynamics of their relationship against the backdrop of Yūichi's love for the dreamy and abstract music of fictional pop star Lily Chou-Chou.",
         poster: "./posters/all about lily chou-chou (2001)/cgYcTxXDAYJg8Wc6a15xe2SUZPH.jpg",
+        backdrop: "./posters/all about lily chou-chou (2001)/uhMcIO7J7WsOIB6dugrJH8RNlax.jpg",
     },
     {
         id: "the-shawshank-redemption",
@@ -117,6 +127,7 @@ window.movies = [
         tagline: "Fear can hold you prisoner. Hope can set you free.",
         description: "Framed in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates -- including an older prisoner named Red -- for his integrity and unquenchable sense of hope.",
         poster: "./posters/the shawshank redemption (1994)/hBcY0fE9pfXzvVaY4GKarweriG2.jpg",
+        backdrop: "./posters/the shawshank redemption (1994)/avedvodAZUcwqevBfm8p4G2NziQ.jpg",
     },
     {
         id: "pearl",
@@ -128,6 +139,7 @@ window.movies = [
         tagline: "The X-traordinary origin story.",
         description: "Trapped on her family’s isolated farm, Pearl must tend to her ailing father under the bitter and overbearing watch of her devout mother. Lusting for a glamorous life like she’s seen in the movies, Pearl’s ambitions, temptations, and repressions collide.",
         poster: "./posters/pearl (2022)/z3NsdQn6rEWxY8JI9stsuwkAyk2.jpg",
+        backdrop: "./posters/pearl (2022)/oxUG1YVKDXz8GqC57LuhZHLVscf.jpg",
     },
     {
         id: "bones-and-all",
@@ -138,6 +150,7 @@ window.movies = [
         rated: 4,
         description: "Abandoned by her father, a young woman embarks on a thousand-mile odyssey through the backroads of America where she meets a disenfranchised drifter. But despite their best efforts, all roads lead back to their terrifying pasts and to a final stand that will determine whether their love can survive their otherness.",
         poster: "./posters/bones and all (2022)/oVQYItnGtRWkbCpQRD4ISXTZPP8.jpg",
+        backdrop: "./posters/bones and all (2022)/DNvjjuhPZpPfRUZDFRjp4B1BV1.jpg",
     },
     {
         id: "tar",
@@ -148,6 +161,7 @@ window.movies = [
         rated: 3,
         description: "The film, set in the international world of classical music, centers on Lydia Tár, widely considered one of the greatest living composer/conductors and first-ever female chief conductor of a major German orchestra.",
         poster: "./posters/tar (2022)/dRVAlaU0vbG6hMf2K45NSiIyoUe.jpg",
+        backdrop: "./posters/tar (2022)/fwhN9a0oRZvzc2tDuu5BZ59MOPz.jpg",
     },
     {
         id: "fight-club",
@@ -159,6 +173,7 @@ window.movies = [
         tagline: "Mischief. Mayhem. Soap.",
         description: 'A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground "fight clubs" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.',
         poster: "./posters/fight club (1999)/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg",
+        backdrop: "./posters/fight club (1999)/3nv2TEz2u178xPXzdKlZdUh5uOI.jpg",
     },
     {
         id: "drive",
@@ -170,6 +185,7 @@ window.movies = [
         tagline: "There are no clean getaways.",
         description: "Driver is a skilled Hollywood stuntman who moonlights as a getaway driver for criminals. Though he projects an icy exterior, lately he's been warming up to a pretty neighbor named Irene and her young son, Benicio. When Irene's husband gets out of jail, he enlists Driver's help in a million-dollar heist. The job goes horribly wrong, and Driver must risk his life to protect Irene and Benicio from the vengeful masterminds behind the robbery.",
         poster: "./posters/drive (2011)/602vevIURmpDfzbnv5Ubi6wIkQm.jpg",
+        backdrop: "./posters/drive (2011)/oeEiUwvqHxWT0XqD3YlViaiJOVD.jpg",
     },
     {
         id: "her",
@@ -181,6 +197,7 @@ window.movies = [
         tagline: "A Spike Jonze Love Story",
         description: "In the not so distant future, Theodore, a lonely writer, purchases a newly developed operating system designed to meet the user's every need. To Theodore's surprise, a romantic relationship develops between him and his operating system. This unconventional love story blends science fiction and romance in a sweet tale that explores the nature of love and the ways that technology isolates and connects us all.",
         poster: "./posters/her (2013)/eCOtqtfvn7mxGl6nfmq4b1exJRc.jpg",
+        backdrop: "./posters/her (2013)/bzAadKCLW4xAxtOhjIEC4UNmd2q.jpg",
     },
     {
         id: "doctor-strange-in-the-multiverse-of-madness",
@@ -192,6 +209,7 @@ window.movies = [
         tagline: "Enter a new dimension of Strange.",
         description: "Doctor Strange, with the help of mystical allies both old and new, traverses the mind-bending and dangerous alternate realities of the Multiverse to confront a mysterious new adversary.",
         poster: "./posters/doctor strange in the multiverse of madness (2022)/fwBl3J2aEXru6mrr9Xg8O99Iz2K.jpg",
+        backdrop: "./posters/doctor strange in the multiverse of madness (2022)/zUYGHXnIVkP7HHipLm1P0jhwIbJ.jpg",
     },
     {
         id: "little-miss-sunshine",
@@ -203,6 +221,7 @@ window.movies = [
         tagline: "A family on the verge of a breakdown",
         description: "A family loaded with quirky, colorful characters piles into an old van and road trips to California for little Olive to compete in a beauty pageant.",
         poster: "./posters/little miss sunshine (2006)/cfVDxpSgP4J7wPavgZTm8KbEai6.jpg",
+        backdrop: "./posters/little miss sunshine (2006)/qCMcJtObsso87ogHm96efJShkfw.jpg",
     },
     {
         id: "ad-astra",
@@ -214,6 +233,7 @@ window.movies = [
         tagline: "The answers we seek are just outside our reach",
         description: "The near future, a time when both hope and hardships drive humanity to look to the stars and beyond. While a mysterious phenomenon menaces to destroy life on planet Earth, astronaut Roy McBride undertakes a mission across the immensity of space and its many perils to uncover the truth about a lost expedition that decades before boldly faced emptiness and silence in search of the unknown.",
         poster: "./posters/ad astra (2019)/ijzHDXqpPjpS92jr678hWDDlb7O.jpg",
+        backdrop: "./posters/ad astra (2019)/elvVHhtKYFLoGGhfyKhhA0wQ4kc.jpg",
     },
     {
         id: "10-things-i-hate-about-you",
@@ -225,6 +245,7 @@ window.movies = [
         tagline: "How do I loathe thee? Let me count the ways.",
         description: "On the first day at his new school, Cameron instantly falls for Bianca, the gorgeous girl of his dreams. The only problem is that Bianca is forbidden to date until her ill-tempered, completely un-dateable older sister Kat goes out, too. In an attempt to solve his problem, Cameron singles out the only guy who could possibly be a match for Kat: a mysterious bad boy with a nasty reputation of his own.",
         poster: "./posters/10 things i hate about you (1999)/kbaxSovb8mJMMHXhhkMGKST1Vfl.jpg",
+        backdrop: "./posters/10 things i hate about you (1999)/4ssWRanWTKN9CQ0tfq5S1whP7tr.jpg",
     },
     {
         id: "the-batman",
@@ -236,6 +257,7 @@ window.movies = [
         tagline: "Unmask the truth.",
         description: "In his second year of fighting crime, Batman uncovers corruption in Gotham City that connects to his own family while facing a serial killer known as the Riddler.",
         poster: "./posters/the batman (2022)/74xTEgt7R36Fpooo50r9T25onhq.jpg",
+        backdrop: "./posters/the batman (2022)/xHrp2pq73oi9D64xigPjWW1wcz1.jpg",
     },
     {
         id: "parasite",
@@ -247,6 +269,7 @@ window.movies = [
         tagline: "Act like you own the place.",
         description: "All unemployed, Ki-taek's family takes peculiar interest in the wealthy and glamorous Parks for their livelihood until they get entangled in an unexpected incident.",
         poster: "./posters/parasite (2019)/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+        backdrop: "./posters/parasite (2019)/4kGkU6feaU8L46c7AtiCl2KIgga.jpg",
     },
     {
         id: "the-menu",
@@ -258,6 +281,7 @@ window.movies = [
         tagline: "Painstakingly prepared. Brilliantly executed.",
         description: "A young couple travels to a remote island to eat at an exclusive restaurant where the chef has prepared a lavish menu, with some shocking surprises.",
         poster: "./posters/the menu (2022)/fPtUgMcLIboqlTlPrq0bQpKK8eq.jpg",
+        backdrop: "./posters/the menu (2022)/tosKn2ULGdIPiZjQxReJ986NGHm.jpg",
     },
     {
         id: "the-shining",
@@ -269,6 +293,7 @@ window.movies = [
         tagline: "He came as the caretaker, but this hotel had its own guardians - who'd been there a long time",
         description: "Jack Torrance accepts a caretaker job at the Overlook Hotel, where he, along with his wife Wendy and their son Danny, must live isolated from the rest of the world for the winter. But they aren't prepared for the madness that lurks within.",
         poster: "./posters/the shining (1980)/nRj5511mZdTl4saWEPoj9QroTIu.jpg",
+        backdrop: "./posters/the shining (1980)/AdKA2F1SzYPhSZdEbjH1Zh75UVQ.jpg",
     },
     {
         id: "nomadland",
@@ -280,6 +305,7 @@ window.movies = [
         tagline: "See you down the road.",
         description: "A woman in her sixties embarks on a journey through the western United States after losing everything in the Great Recession, living as a van-dwelling modern-day nomad.",
         poster: "./posters/nomadland (2021)/8Vc5EOUEIF1EUXuX9eLFf7BvN3P.jpg",
+        backdrop: "./posters/nomadland (2021)/bjjZXrP8PEdFeJkKERc62xlarMI.jpg",
     },
     {
         id: "the-kings-speech",
@@ -291,6 +317,7 @@ window.movies = [
         tagline: "Find your voice.",
         description: "The King's Speech tells the story of the man who became King George VI, the father of Queen Elizabeth II. After his brother abdicates, George ('Bertie') reluctantly assumes the throne. Plagued by a dreaded stutter and considered unfit to be king, Bertie engages the help of an unorthodox speech therapist named Lionel Logue. Through a set of unexpected techniques, and as a result of an unlikely friendship, Bertie is able to find his voice and boldly lead the country into war.",
         poster: "./posters/the kings speech (2010)/uQ538BfYLDJh3GXlzRZLo0j7PFj.jpg",
+        backdrop: "./posters/the kings speech (2010)/5eb7l7AE2yU0mvb38fR5qLNhDDH.jpg",
     },
     {
         id: "the-red-sea-diving-resort",
@@ -302,6 +329,7 @@ window.movies = [
         tagline: "In the 1980s one partnership saved thousands of lives",
         description: "Sudan, East Africa, 1980. A team of Israeli Mossad agents plans to rescue and transfer thousands of Ethiopian Jews to Israel. To do so, and to avoid raising suspicions from the inquisitive and ruthless authorities, they establish as a cover a fake diving resort by the Red Sea.",
         poster: "./posters/the red sea diving resort (2019)/bTgd1QQFTKdxESevtffAvIvCnz2.jpg",
+        backdrop: "./posters/the red sea diving resort (2019)/7XI3DfxdQwvgXTCx29fglvcirQP.jpg",
     },
     {
         id: "call-me-by-your-name",
