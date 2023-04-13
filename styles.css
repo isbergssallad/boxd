@@ -300,13 +300,17 @@ input {
     opacity: 0.9;
 }
 
-
 .movie-container {
     display: flex;
     align-items: center;
     justify-content: center;
     width: auto;
-    padding: 50px;
+    min-height: 900px;
+    padding: 60px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(60, 60, 60, 0.7);
+    background-blend-mode: overlay;
 }
 
 .movie-info-container {
@@ -331,7 +335,7 @@ input {
     align-items: center;
 }
 
-.backdrop-container {
+/* .backdrop-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -350,11 +354,14 @@ input {
     width: 100%;
     height: auto;
     border: 2px solid black;
+} */
+
+.space {
+    height: 60px;
 }
 
 .title-container {
     align-items: center;
-    max-width: 350px;
     height: auto;
 }
 
