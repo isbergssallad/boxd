@@ -306,7 +306,6 @@ input {
     align-items: center;
     justify-content: center;
     width: auto;
-    min-height: 750px;
     padding: 50px;
 }
 
@@ -332,7 +331,19 @@ input {
     align-items: center;
 }
 
+.backdrop-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    
+}
 
+.backdrop img {
+    width: 800px;
+    height: auto;
+    border: 2px solid black;
+}
 
 .title-container {
     align-items: center;
@@ -376,13 +387,14 @@ input {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: flex-start;
+    align-items: center;
     gap: 15px;
-    padding: 20px;
+    padding: 50px;
+    justify-content: center;
 }
 
 .all-movies img{
-    width: 150px;
+    width: 120px;
     height: auto;
     border-radius: 5px;
 }
