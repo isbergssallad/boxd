@@ -10,7 +10,11 @@ var html = '<div class="header-container">' +
 '</div>' +
 '<div class="searchbar gap-10">' +
 '<i class="fa fa-search"></i>' +
-'<input type="text" placeholder="Search.." class="mini-searchbar">' +
+'<div class="search-result">' +
+'<input type="text" placeholder="Search.." class="mini-searchbar" id="searchBar" onkeyup="searchMovies()">' +
+'<ul id="movieList">' +
+'</ul>' +
+'</div>' +
 '</div>' +
 '</div>';
 

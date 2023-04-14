@@ -4,7 +4,7 @@ var html = '<div class="footer">' +
 '</div>' +
 '<div class="footer-buttons">' +
 '<a href="about.html" class="text-body" >About</a>' +
-'<a href="letterboxd.com/kagieu" class="text-body" >Letterboxd</a>' +
+'<a href="https://letterboxd.com/kagieu" class="text-body" target="_blank">Letterboxd</a>' +
 '</div>' +
 '<h1 class="highlight">COZYgc by ISBERGSSALLAD</h1>' +
 '</div>';

@@ -205,6 +205,35 @@ ul li a {
 input[type=text]:focus {outline:none;}
 
 
+#movieList {
+    position: absolute;
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    font-size: 11pt;
+    width: 220px;
+    text-align: start;
+}
+  
+#movieList li {
+    padding: 4px;
+    background-color: #f2f2f2;
+    color: #000000;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    border: 2px solid #000000;
+    border-radius: 5px;
+  }
+  
+#movieList li:hover {
+    background-color: #e6e6e6;
+}
+
+#movieList li span {
+    margin-right: 10px;
+  }
+
+
 
 .searchbar {
     display: flex;
@@ -469,6 +498,13 @@ input {
     max-width: 800px;
     height: auto;
 }
+
+.about-lb {
+    color: #000000;
+}
+
+
+
 
 
 
