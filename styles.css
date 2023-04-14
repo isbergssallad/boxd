@@ -85,6 +85,12 @@
     font-weight: 700;
 }
 
+.nav {
+    font-size: 12pt;
+    font-family: "FreeSans-Regular";
+    font-weight: 600;
+}
+
 .highlight {
     font-size: 14pt;
     font-family: "FreeSans-Regular";
@@ -102,7 +108,7 @@
     font-family: "Inter-Regular";
     font-weight: 600;
     font-style: italic;
-    color: #3c3c3c;
+    color: #bababa;
 }
 
 
@@ -131,13 +137,14 @@ ul li a {
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: auto;
-    background-color: #F5F5F5;
-    justify-content: space-between;
+    max-height: 40px;
+    background-color: #131313;
+    justify-content: center;
     padding-left: 50px;
     padding-right: 50px;
-    border-bottom: 2px solid #707070;
+    border-bottom: 2px solid #000000;
     z-index: 1;
+    gap: 40%;
 }
 
 .navigations-container {
@@ -167,7 +174,7 @@ ul li a {
 
 .navigations a {
     text-decoration: none;
-    color: #0D0D0C;
+    color: #EEEEEE;
 }
 
 
@@ -193,7 +200,7 @@ input[type=text]:focus {outline:none;}
     display: flex;
     align-content: center;
     align-items: center;
-    color: #0D0D0C;
+    color: #eeeeee;
 }
 
 
@@ -356,9 +363,7 @@ input {
     border: 2px solid black;
 } */
 
-.space {
-    height: 60px;
-}
+
 
 .title-container {
     align-items: center;
@@ -374,6 +379,8 @@ input {
 .title-director-container {
     display: flex;
     flex-direction: column;
+    color: #d5d5d5;
+
 }
 
 .movie-description-container {
@@ -381,6 +388,7 @@ input {
     flex-direction: column;
     width: 420px;
     height: auto;
+    color: #d5d5d5;
 }
 
 .rating {

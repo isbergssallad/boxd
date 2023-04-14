@@ -542,7 +542,7 @@ window.movies = [
         trailer: "https://youtu.be/4CV41hoyS8A",
         rated: 4,
         tagline: "Some memories are best forgotten.",
-        description: "Leonard Shelby is tracking down the man who raped and murdered his wife. The difficulty of locating his wife's killer, however, is compounded by the fact that he suffers from a rare, untreatable form of short-term memory loss. Although he can recall details of life before his accident, Leonard cannot remember what happened fifteen minutes ago, where he's going, or why.",
+        description: "Leonard Shelby is tracking down the man who r*ped and murdered his wife. The difficulty of locating his wife's killer, however, is compounded by the fact that he suffers from a rare, untreatable form of short-term memory loss. Although he can recall details of life before his accident, Leonard cannot remember what happened fifteen minutes ago, where he's going, or why.",
         poster: "./posters/memento (2000)/bDgEwnPFcPrJcM5xvkt8EphZ9A3.jpg",
         backdrop: "./posters/memento (2000)/v4u9FnSOpLEjPIAhbKClM45LJoJ.jpg",
     },
