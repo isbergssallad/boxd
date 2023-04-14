@@ -10,26 +10,7 @@
 </head>
 <body>
     <div class="page-container">
-        <div class="header-container">
-            <div class="logo">
-                <a href="index.html"><img src="./images/cozygc white.svg" alt=""></a>
-            </div>
-
-            <div class="navigations-container gap-20 nav">
-                <div class="navigations gap-25">
-                    <a href="all-movies.html">Films</a>
-                    <a href="">Favorites</a>
-                    <a href="">Watchlist</a>
-                </div>
-
-                <div class="searchbar gap-10">
-                    <i class="fa fa-search"></i>
-                    <input type="text" placeholder="Search.." class="mini-searchbar">
-                    
-                </div>
-            </div>
-        </div>
-
+        <div class="nav" id="nav"></div>
 
         <div class="movie-container gap-20" id="movie-container">
 
@@ -51,7 +32,7 @@
                     </div>
                     <h3 class="highlight" id="movie-director">Directed by</h3>
                 </div>
-
+                <h2 class="runtime" id="movie-runtime">1h</h2>
                 <div class="rating" id="star-rating"></div>
 
                 <div class="movie-description-container gap-10">
@@ -64,16 +45,13 @@
         </div>
 
 
-        <div class="footer">
-            <div class="footer-logo">
-                <img src="./images/cozygc gray.svg" alt="">
-            </div>
-            <h1 class="highlight">COZYgc by ISBERGSSALLAD</h1>
-        </div>
+        <div id="footer"></div>
 
 
     </div>
 
+    <script src="nav.js"></script>
+    <script src="footer.js"></script>
     <script src="movie-list.js"></script>
     <script src="movie-page.js"></script>
 
