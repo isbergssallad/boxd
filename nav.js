@@ -4,7 +4,7 @@ var html = '<div class="header-container">' +
 '</div>' +
 '<div class="navigations-container gap-20 nav">' +
 '<div class="navigations gap-25">' +
-'<a href="all-movies.html">Films</a>' +
+'<a href="films.html">Films</a>' +
 '<a href="">Favorites</a>' +
 '<a href="">Watchlist</a>' +
 '</div>' +

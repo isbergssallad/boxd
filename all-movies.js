@@ -3,7 +3,7 @@ const container = document.getElementById("allmovies");
 
 window.movies.forEach(movie => {
     const link = document.createElement("a");
-    link.href = "movie.html?movie_id=" + movie.id
+    link.href = "film.html?film_id=" + movie.id
 
 
     const image = document.createElement("img");
