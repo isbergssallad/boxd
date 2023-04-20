@@ -118,7 +118,6 @@ ul li a {
     padding: 2vh;   /*padding between header options*/
     text-decoration: none; 
     color: #000000;
-    text-align: center;
 }
 
 
@@ -185,6 +184,8 @@ ul li a {
 input[type=text]:focus {outline:none;}
 
 
+
+
 #movieList {
     position: absolute;
     list-style-type: none;
@@ -192,18 +193,23 @@ input[type=text]:focus {outline:none;}
     margin: 0 auto;
     font-size: 11pt;
     width: 220px;
+    height: auto;
     text-align: start;
 }
   
 #movieList li {
-    padding: 4px;
     background-color: #f2f2f2;
     color: #000000;
     cursor: pointer;
     transition: background-color 0.2s ease-in-out;
     border: 2px solid #000000;
-    border-radius: 5px;
   }
+
+#movieList li > a {
+    display: block;
+    padding: 7px;
+}
+
   
 #movieList li:hover {
     background-color: #e6e6e6;
@@ -212,6 +218,7 @@ input[type=text]:focus {outline:none;}
 #movieList li span {
     margin-right: 10px;
   }
+
 
 
 
@@ -364,6 +371,11 @@ input {
     border: 2px solid #131313;
 }
 
+.poster-container img:hover {
+    opacity: 0.1;
+    transition: opacity .25s ease-in-out;
+}
+
 .poster-buttons-container {
     display: flex;
     flex-direction: column;
@@ -484,11 +496,29 @@ input {
 }
 
 
+@media (max-width: 1050px) {
+    .header-container{
+        gap: 120px;
+    }
+}
 
+
+@media (max-width: 800px) {
+    .header-container{
+        gap: 40px;
+    }
+
+}
 
 
 
 @media (max-width: 650px){
+
+    .header-container{
+        gap: 0;
+    }
+
+
     .movie-container{
         display: flex;
         flex-direction: column;

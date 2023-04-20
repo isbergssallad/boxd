@@ -12,7 +12,7 @@ var html = '<div class="header-container">' +
 '<i class="fa fa-search"></i>' +
 '<div class="search-result">' +
 '<input type="text" placeholder="Search.." class="mini-searchbar" id="searchBar" onkeyup="searchMovies()">' +
-'<ul id="movieList">' +
+'<ul class="result" id="movieList">' +
 '</ul>' +
 '</div>' +
 '</div>' +

@@ -1007,6 +1007,32 @@ window.movies = [
         backdrop: "./posters/american psycho (2000)/bneUTWFAcVCdsb0O5UwZbJd8xqZ.jpg",
     },
     {
+        id: "rye-lane",
+        title: "Rye Lane",
+        year: "(2023)",
+        director: "Raine Allen-Miller",
+        trailer: "https://youtu.be/LZ9dZBfo4zY",
+        rated: 5,
+        runtime: "82",
+        tagline: "",
+        description: "Two twenty-somethings, both reeling from bad break-ups, connect over the course of an eventful day in South London – helping each other deal with their nightmare exes, and potentially restoring their faith in romance.",
+        poster: "./posters/rye lane (2023)/z1B8GAem6gtcMDmdWtxkeq5FSgC.jpg",
+        backdrop: "./posters/rye lane (2023)/te44hmcKd8xDt6gQcSo62tZR2fC.jpg",
+    },    
+    {
+        id: "gods-own-country",
+        title: "God's Own Country",
+        year: "(2017)",
+        director: "Francis Lee",
+        trailer: "",
+        rated: 5,
+        runtime: "105",
+        tagline: "",
+        description: "A young farmer in rural Yorkshire numbs his daily frustrations with binge drinking and casual sex, until the arrival of a Romanian migrant worker.",
+        poster: "./posters/gods own country (2017)/uKShYyGsleXAZ6e6gK5jF6Wa2tW.jpg",
+        backdrop: "./posters/gods own country (2017)/uF5wYeR9DtInz7aDO1WBFv4JgHB.jpg",
+    },
+    {
         id: "",
         title: "",
         year: "",
@@ -1019,6 +1045,7 @@ window.movies = [
         poster: "",
         backdrop: "",
     },
+
     
 
 
