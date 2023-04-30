@@ -1,8 +1,15 @@
 sort.onchange = sortingValue;
 
 function sortingValue(){
-    if(sortingValue.value === "a-z"){
-        window.movies.sort((a, b) => (a.title > b.title ? 1 : -1));
-        location.reload()
-    } 
+    location.href = "films.html?sort=" + sort.value;
 }
+
+
+
+// reviews.sort(function(a, b) {
+//     if (a.name.toLowerCase() < b.name.toLowerCase()
+//         ) return -1;
+//     if (a.name.toLowerCase() > b.name.toLowerCase()
+//     ) return 1;
+//     return 0;
+// });
