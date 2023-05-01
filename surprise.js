@@ -1,5 +1,6 @@
 const surprise = document.getElementById("surprise");
 
+const jsConfetti = new JSConfetti();
 
 
 function getRandomMovie() {
@@ -7,9 +8,10 @@ function getRandomMovie() {
     return moviesShuffled[0];
   }
 
-//surprise.addEventListener("click", Surprise);
 
 function Surprise() {
+
+    jsConfetti.addConfetti();
     surprise.innerHTML = "";
     const movie = getRandomMovie();
 

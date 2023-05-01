@@ -326,7 +326,7 @@ window.movies = [
         year: "(2021)",
         director: "Chloé Zhao",
         trailer: "https://youtu.be/6sxCFZ8_d84",
-        rated: 2,
+        rated: 1,
         runtime: "108",
         tagline: "See you down the road.",
         description: "A woman in her sixties embarks on a journey through the western United States after losing everything in the Great Recession, living as a van-dwelling modern-day nomad.",
@@ -979,6 +979,7 @@ window.movies = [
         description: "Two tales of crimes intertwine in present-day Hong Kong.",
         poster: "./posters/fallen angels (1995)/yyM9BPdwttK5LKZSLvHae7QPKo1.jpg",
         backdrop: "./posters/fallen angels (1995)/v4FepSc09TsRy2fQtUg6vvzrTq0.jpg",
+        recents: 4,
     },
     {
         id: "tigertail",
@@ -1018,6 +1019,7 @@ window.movies = [
         description: "Two twenty-somethings, both reeling from bad break-ups, connect over the course of an eventful day in South London – helping each other deal with their nightmare exes, and potentially restoring their faith in romance.",
         poster: "./posters/rye lane (2023)/z1B8GAem6gtcMDmdWtxkeq5FSgC.jpg",
         backdrop: "./posters/rye lane (2023)/te44hmcKd8xDt6gQcSo62tZR2fC.jpg",
+        recents: 3,
     },    
     {
         id: "gods-own-country",
