@@ -31,15 +31,3 @@ function Surprise() {
 
 
 
-// function displayMovie() {
-//   const movie = getRandomMovie();
-
-//   movieTitle.textContent = movie.title;
-
-//   movieLink.href = "film.html?film_id=" + movie.id;
-//   moviePoster.src = movie.poster;
-// }
-
-// surpriseButton.addEventListener("click", () => {
-//   displayMovie();
-// });

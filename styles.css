@@ -52,7 +52,6 @@
     font-size: 20pt;
     font-family: "FreeSans-Bold";
     font-weight: 500;
-    padding-left: 20px;
     color: #161616;
 }
 
@@ -193,9 +192,17 @@ input[type=text]:focus {
     font-family: "FreeSans-Bold";
 }
 
+.page-title-container{
+    padding-left: 30px;
+}
+
 
 .filter-condition {
+    display: flex;
+    justify-content: flex-end;
     font-family: "FreeSans-Bold";
+    padding-right: 30px;
+    font-weight: 600;
 }
 
 .searchbar {
@@ -383,6 +390,7 @@ input {
     border: 2px solid black;
     font-family: "Inter-Regular";
     font-weight: 600;
+    cursor: pointer;
   }
 
 .button:hover {
@@ -428,7 +436,6 @@ input {
     justify-content: center;
     align-items: center;
 }
-
 
 
 .title-container {

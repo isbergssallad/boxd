@@ -6,7 +6,7 @@ var html = '<div class="header-container">' +
 '<div class="navigations gap-25">' +
 '<a href="films.html">FILMS</a>' +
 '<a href="">FAVORITES</a>' +
-'<a href="">WATCHLIST</a>' +
+'<a href="watchlist.html">WATCHLIST</a>' +
 '</div>' +
 '<div class="searchbar gap-10">' +
 '<div class="search-icon">' +
