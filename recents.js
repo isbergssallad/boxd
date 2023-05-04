@@ -1,8 +1,9 @@
 const container = document.getElementById("recents")
 
-const recent_movies = window.movies.recents
+const recent_movies = window.movies.filter(movie => movie.recents !== undefined) //ta bara movies med recents property
 
-recentSort = () => {
+
+recentSort = () => { //sorteringssätt
     recents = (a, b) => (a.recents > b.recents ? 1 : -1);
 }
 
@@ -10,7 +11,7 @@ recentSort = () => {
 
 
 
-recent_movies.sort(recents).forEach(movie => {
+recent_movies.sort(recentSort).forEach(movie => {
 
     
     const link = document.createElement("a");

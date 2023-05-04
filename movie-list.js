@@ -11,6 +11,7 @@ window.movies = [
         description: "Sophie reflects on the shared joy and private melancholy of a holiday she took with her father twenty years earlier. Memories real and imagined fill the gaps between miniDV footage as she tries to reconcile the father she knew with the man she didn't.",
         poster: "./posters/aftersun (2022)/jeXmhP2zbUkREMRqFOYIwQOk49T.jpg",
         backdrop: "./posters/aftersun (2022)/4jdduww9j5RyzO4ITRcuBFhqNN1.jpg",
+        favorites: 3,
     },
     {
         id: "everything-everywhere-all-at-once",
@@ -24,6 +25,7 @@ window.movies = [
         description: "An aging Chinese immigrant is swept up in an insane adventure, where she alone can save what's important to her by connecting with the lives she could have led in other universes.",
         poster: "./posters/everything everywhere all at once (2022)/q2VDgaPHJVZ6YXyXdycVM2F2d7E.jpg",
         backdrop: "./posters/everything everywhere all at once (2022)/wp3vpSWAIjKSEeYb8F5NSZfONqw.jpg",
+        favorites: 4,
     },
     {
         id: "heat",
@@ -49,6 +51,7 @@ window.movies = [
         description: "A Korean American family moves to an Arkansas farm in search of its own American dream. Amidst the challenges of this new life in the strange and rugged Ozarks, they discover the undeniable resilience of family and what really makes a home.",
         poster: "./posters/minari (2021)/6mPNdmjdbVKPITv3LLCmQoKs9Zw.jpg",
         backdrop: "./posters/minari (2021)/sthDtZfswdU0d0U8SImsy5eEYy4.jpg",
+        favorites: 8,
     },
     {
         id: "chungking-express",
@@ -62,6 +65,7 @@ window.movies = [
         description: "Two melancholic Hong Kong policemen fall in love: one with a mysterious underworld figure, the other with a beautiful and ethereal server at a late-night restaurant.",
         poster: "./posters/chungking express (1994)/43I9DcNoCzpyzK8JCkJYpHqHqGG.jpg",
         backdrop: "./posters/chungking express (1994)/i4m14DMv0JG4AOH6sP7Pes87A9x.jpg",
+        favorites: 6,
     },
     {
         id: "nope",
@@ -88,6 +92,7 @@ window.movies = [
         description: "Whatever she does, Eunhee feels like an outsider. Then her new Chinese teacher turns out to be so utterly different from everybody else. A compassionate and meticulously told narrative of a seemingly regular summer that leaves nothing unchanged.",
         poster: "./posters/house of hummingbird (2019)/azqkMjfwdXuK6OzrrGNYyUnHOAQ.jpg",
         backdrop: "./posters/house of hummingbird (2019)/lgxmbRLeyofYOBcPT3tGDsgsTYS.jpg",
+        favorites: 1,
     },
     {
         id: "in-the-mood-for-love",
@@ -101,6 +106,7 @@ window.movies = [
         description: "Taking place in Hong Kong of 1962, a melancholy story about the love between a woman and a man who live in the same building and one day find out that their husband and wife had an affair with each other.",
         poster: "./posters/in the mood for love (2000)/iYypPT4bhqXfq1b6EnmxvRt6b2Y.jpg",
         backdrop: "./posters/in the mood for love (2000)/2USUGY484L6sUkjeD1Y0rG8uRC9.jpg",
+        favorites: 5,
     },
     {
         id: "spirited-away",
@@ -592,6 +598,7 @@ window.movies = [
         description: "At the turn of the century, the Angels returned to Earth, seeking to wipe out humanity in an apocalyptic fury. Devastated, mankind's last remnants moved underground to wait for the day when the Angels would come back to finish the job. Fifteen years later, that day has come... but this time, humanity is ready to fight back with terrifying bio-mechanical weapons known as the Evangelions. Watch as Shinji, Rei, Asuka and the rest of the mysterious shadow agency Nerv battle to save earth from total annihilation.",
         poster: "./posters/neon genesis evangelion (1995)/y2ah9t0navXyIvoHg1uIbIHO3tt.jpg",
         backdrop: "./posters/neon genesis evangelion (1995)/kodyR4sQ1gPbNgQoyk1ADU8ZTSk.jpg",
+        favorites: 9,
     },
     {
         id: "memento",
@@ -981,6 +988,7 @@ window.movies = [
         poster: "./posters/fallen angels (1995)/yyM9BPdwttK5LKZSLvHae7QPKo1.jpg",
         backdrop: "./posters/fallen angels (1995)/v4FepSc09TsRy2fQtUg6vvzrTq0.jpg",
         recents: 4,
+        favorites: 7,
     },
     {
         id: "tigertail",
@@ -1035,6 +1043,7 @@ window.movies = [
         description: "A young farmer in rural Yorkshire numbs his daily frustrations with binge drinking and casual sex, until the arrival of a Romanian migrant worker.",
         poster: "./posters/gods own country (2017)/uKShYyGsleXAZ6e6gK5jF6Wa2tW.jpg",
         backdrop: "./posters/gods own country (2017)/uF5wYeR9DtInz7aDO1WBFv4JgHB.jpg",
+        favorites: 2,
     },
     {
         id: "oceans-eleven",
