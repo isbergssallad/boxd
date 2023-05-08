@@ -695,6 +695,10 @@ input {
         font-weight: bold;
         border: 1px solid black;
       }
+
+      .favorites {
+        padding: 50px;
+      }
       
 
 
