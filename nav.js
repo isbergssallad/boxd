@@ -18,6 +18,9 @@ var html = '<div class="header-container">' +
 '</ul>' +
 '</div>' +
 '</div>' +
+'<a href="javascript:void(0);" class="icon" onclick="myFunction()">' +
+'<i class="fa fa-bars"></i>' +
+'</a>' +
 '</div>';
 
 document.getElementById('nav').innerHTML = html;

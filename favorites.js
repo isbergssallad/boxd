@@ -1,17 +1,17 @@
 const container = document.getElementById("favorites")
 
-const recent_movies = window.movies.filter(movie => movie.favorites !== undefined) //ta bara movies med favorites property
+const favorite_movies = window.movies.filter(movie => movie.favorites !== undefined) //ta bara movies med favorites property
 
 
 favoriteSort = () => { //sorteringssätt
-    favorites = (a, b) => (a.recents > b.recents ? 1 : -1);
+    return favorites = (a, b) => (a.favorites > b.favorites ? 1 : -1);
 }
 
+    
 
 
 
-
-recent_movies.sort(favoriteSort).forEach(movie => {
+favorite_movies.sort(favoriteSort()).forEach(movie => {
 
     
     const link = document.createElement("a");
@@ -23,5 +23,5 @@ recent_movies.sort(favoriteSort).forEach(movie => {
 
     link.appendChild(image)
 
-   container.appendChild(link);
+    container.appendChild(link);
 });

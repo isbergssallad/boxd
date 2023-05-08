@@ -19,6 +19,11 @@
     src: url(./fonts/Inter-Regular.ttf);
 }
 
+@font-face {
+    font-family: Inter-Medium;
+    src: url(./fonts/Inter-Medium.ttf);
+}
+
 
 
 
@@ -246,7 +251,12 @@ input[type=text]:focus {
     margin-right: 10px;
   }
 
-  
+
+.slideshow {
+    padding-top: 60px;
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+}
 
 
 .catchphrase-container {
@@ -324,6 +334,10 @@ input[type=text]:focus {
     width: 240px;
     height: auto;
     border: 2px solid #000000;
+}
+
+.recents img:hover {
+    opacity: 0.8;
 }
 
 
@@ -566,6 +580,22 @@ input {
     width: 120px;
     height: auto;
     border-radius: 5px;
+}
+
+.favorites img {
+    width: 120px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.favorites {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    min-height: 500px;
+    justify-content: center;
+    align-items: center;
 }
 
 .watchlist {

@@ -11,7 +11,7 @@ recentSort = () => { //sorteringssätt
 
 
 
-recent_movies.sort(recentSort).forEach(movie => {
+recent_movies.sort(recentSort()).forEach(movie => {
 
     
     const link = document.createElement("a");
