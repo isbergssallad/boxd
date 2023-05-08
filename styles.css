@@ -135,6 +135,7 @@ ul li a {
     max-height: 43px;
     background-color: #262626;
     justify-content: center;
+    align-items: center;
     border-bottom: 2px solid #000000;
     z-index: 1;
     justify-content: space-between;
@@ -147,7 +148,18 @@ ul li a {
     flex-direction: row;
     width: auto;
     height: auto;
+    align-items: center;
 }
+
+.navigations-container a.icon {
+    display: flex;
+    align-content: center;
+    color: white;
+    display: block;
+    text-decoration: none;
+    justify-content: center;
+  }
+
 
 .logo img {
     display: flex;
@@ -630,16 +642,26 @@ input {
     background-color: rgb(218, 34, 34);
 }
 
+.hamburger {
+    display: none;
+}
+
 
 
 
 @media (max-width: 1050px) {
+
+    .hamburger {
+        display: block;
+    }
+
+
     .header-container{
         gap: 120px;
     }
 
     #searchBar {
-        width: 150px;
+        width: 200px;
     }
     
     .footer {
@@ -651,8 +673,31 @@ input {
     }
 
     .result li {
-        width: 150px;
+        width: 200px;
     }
+
+
+    .navigations {
+        position: absolute;
+        top: 43px; /* adjust this value to change the distance from the top */
+        right: 0;
+        background-color: white;
+        z-index: 1; /* make sure the menu is on top of other elements */
+        width: 150px;
+        text-align: center; /* center the menu items */
+        display: none; /* hide the menu by default */
+      }
+      
+      .navigations a {
+        display: block;
+        padding: 10px 0;
+        color: black;
+        font-weight: bold;
+        border: 1px solid black;
+      }
+      
+
+
 }
 
 
@@ -683,6 +728,10 @@ input {
         font-size: 15px;
     }
 
+    .navigations {
+        display: none;
+    }
+
     .movie-container{
         display: flex;
         flex-direction: column;
@@ -694,6 +743,7 @@ input {
     .navigations-container{
         display: flex;
         align-items: center;
+        
     }
 
 }
@@ -716,6 +766,23 @@ input {
     }
 
 
+
     
 }
+
+
+@media (max-width: 400px){
+
+    #searchBar {
+        width: 150px;
+    }
+
+
+
+    .result li {
+        width: 150px;
+    }
+}
+
+
 

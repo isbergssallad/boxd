@@ -3,7 +3,7 @@ var html = '<div class="header-container">' +
 '<a href="index.html"><img src="./images/cozygc white.svg" alt=""></a>' +
 '</div>' +
 '<div class="navigations-container gap-20 nav">' +
-'<div class="navigations gap-25">' +
+'<div class="navigations gap-25" id="navigations">' +
 '<a href="films.html">FILMS</a>' +
 '<a href="favorites.html">FAVORITES</a>' +
 '<a href="watchlist.html">WATCHLIST</a>' +
@@ -18,9 +18,11 @@ var html = '<div class="header-container">' +
 '</ul>' +
 '</div>' +
 '</div>' +
-'<a href="javascript:void(0);" class="icon" onclick="myFunction()">' +
+'<div class="hamburger">' +
+'<a href="javascript:void(0);" class="icon" onclick="hamburger()">' +
 '<i class="fa fa-bars"></i>' +
 '</a>' +
+'</div>' +
 '</div>';
 
 document.getElementById('nav').innerHTML = html;
