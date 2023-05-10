@@ -12,7 +12,7 @@ function searchMovies() {
         if (matches >= 4) break;
         const movieListItem = document.createElement("li");
         const movieLink = document.createElement("a");
-        movieLink.href = "film.html?film_id=" + movie.id;
+        movieLink.href = "/film.html?film_id=" + movie.id;
         movieLink.textContent = movie.title + " " + movie.year;
         movieListItem.appendChild(movieLink);
         movieList.appendChild(movieListItem);
