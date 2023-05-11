@@ -1,10 +1,10 @@
-const container = document.getElementById("allmovies");
+const container = document.getElementById("allmovies"); //hämtar allmovies id från html
 
-const params = new URLSearchParams(window.location.search)
-const sortid = params.get("sort") || "default";
-sort.value = sortid;
+const params = new URLSearchParams(window.location.search) //hämtar url
+const sortid = params.get("sort") || "default"; //hämtar sortid från url
+sort.value = sortid; //hämtar value från sortid
 
-let sorting_function = (a, b) => 0;
+let sorting_function = (a, b) => 0;     //sorteringssätt
 if (sortid === "a-z") {
     sorting_function = (a, b) => (a.title > b.title ? 1 : -1);
 }
@@ -18,7 +18,7 @@ else if (sortid === "low-to-high") {
 }
 
 
-window.movies.sort(sorting_function).forEach(movie => {
+window.movies.sort(sorting_function).forEach(movie => { //loopar igenom alla filmer
 
     
     const link = document.createElement("a");

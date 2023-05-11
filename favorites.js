@@ -1,4 +1,4 @@
-const container = document.getElementById("favorites")
+const container = document.getElementById("favorites") //hämtar favorites id från html
 
 const favorite_movies = window.movies.filter(movie => movie.favorites !== undefined) //ta bara movies med favorites property
 
@@ -11,7 +11,7 @@ favoriteSort = () => { //sorteringssätt
 
 
 
-favorite_movies.sort(favoriteSort()).forEach(movie => {
+favorite_movies.sort(favoriteSort()).forEach(movie => { //loopar igenom alla filmer
 
     
     const link = document.createElement("a");

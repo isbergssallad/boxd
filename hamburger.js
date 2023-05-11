@@ -1,4 +1,4 @@
-function hamburger() {
+function hamburger() { // hamburger menu
     var x = document.getElementById("navigations");
     if (x.style.display === "block") {
       x.style.display = "";

@@ -1,3 +1,4 @@
+//nav bar i js för att kunna använda den på alla sidor
 var html = '<div class="header-container">' +
 '<div class="logo">' +
 '<a href="index.html"><img src="./images/cozygc white.svg" alt=""></a>' +
