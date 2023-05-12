@@ -1,4 +1,4 @@
-function searchMovies() {
+function searchMovies() { //funktion för att söka efter filmer
     const searchQuery = document.getElementById("searchBar").value.toLowerCase(); //hämtar värdet från searchbar
   
     const movieList = document.getElementById("movieList");
@@ -24,12 +24,12 @@ function searchMovies() {
   const searchBar = document.getElementById("searchBar"); //hämtar searchbar
   const movieList = document.getElementById("movieList"); //hämtar movieList
   
-  // Hide the movie list when the search bar is clicked
+  // Göm resultat när man klickar på sökfältet
   searchBar.addEventListener("click", () => { 
     movieList.style.display = "none";
   });
   
-  // Show the movie list when the search bar value changes
+  // Visa resultat när det finns input i sökfältet
   searchBar.addEventListener("input", () => {
     const searchString = searchBar.value.toLowerCase();
     if (searchString === "") {

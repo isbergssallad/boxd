@@ -4,7 +4,7 @@ const recent_movies = window.movies.filter(movie => movie.recents !== undefined)
 
 
 recentSort = () => { //sorteringssätt
-    recents = (a, b) => (a.recents > b.recents ? 1 : -1); //sortera efter recents
+    return recents = (a, b) => (a.recents > b.recents ? 1 : -1); //sortera efter recents
 }
 
 
