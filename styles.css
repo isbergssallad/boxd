@@ -388,7 +388,6 @@ input[type=text]:focus {
 }
 
 
-
 .footer-buttons {
     display: flex;
     flex-direction: column;
@@ -798,6 +797,10 @@ input {
 
     .result li {
         width: 150px;
+    }
+
+    .movie-description-container {
+        width: 350px;
     }
 }
 
